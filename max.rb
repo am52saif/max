@@ -1,13 +1,13 @@
 def maximum(arr)
 	num = 0
-	dummy = arr[num]
+	greaterNum = arr[num]
 	while num < arr.length
-		if dummy <= arr[num]
-			dummy = arr[num]
+		if greaterNum <= arr[num]
+			greaterNum = arr[num]
 		end
 		num +=1
 	end
-	dummy
+	greaterNum
 end
 
 
